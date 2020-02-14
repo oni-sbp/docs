@@ -41,6 +41,7 @@ script:
   # Generate code examples from RAML files.
   - chmod 777 scripts/code-examples/generate.sh
   - ./scripts/code-examples/generate.sh
+
   # Validate code examples.
   # API is currently unstable - thus ignore the
   # result of validation for now.
