@@ -33,18 +33,22 @@ install:
    # Install all the dependecies required to
    # generate and validate code examples based
    # on API specification in `raml2markdown/src`.
+   - chmod 777 scripts/code-examples/install-deps.sh
    - ./scripts/code-examples/install-deps.sh
 
 script:
   # Generate code examples from RAML files.
+  - chmod 777 scripts/code-examples/generate.sh
   - ./scripts/code-examples/generate.sh
   # Validate code examples.
   # API is currently unstable - thus ignore the
   # result of validation for now.
+  - chmod 777 scripts/code-examples/validate.sh
   - ./scripts/code-examples/validate.sh || true
 
   # Build API documentation
   - cd raml2markdown/
+  - chmod 777 build.sh
   - ./build.py
   - cd ..
   - echo 'docs.oftrust.net' > build/CNAME
