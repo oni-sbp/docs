@@ -7,7 +7,7 @@ Getting Started with Docs
 
 ### Prerequisites
 
-You're going to need:
+You're going to need: 
 
  - **Linux or macOS** — Windows may work, but is unsupported.
  - **Ruby, version 2.3.1 or newer**
