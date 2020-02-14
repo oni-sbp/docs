@@ -26,6 +26,7 @@ git:
 before_install:
   - nvm install $NODE_VERSION
   - nvm alias default node
+  - chmod 777 setup.sh
   - ./setup.sh
 
 install:
