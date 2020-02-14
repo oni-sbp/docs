@@ -1,6 +1,6 @@
 
 
-Getting Started with Docs
+Getting Started with Docs 
 ------------------------------
 
 [![Build Status](https://travis-ci.org/PlatformOfTrust/docs.svg?branch=master)](https://travis-ci.org/PlatformOfTrust/docs)
