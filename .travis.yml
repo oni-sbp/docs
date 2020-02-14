@@ -24,6 +24,7 @@ git:
   submodules: false
 
 before_install:
+  - echo $GITHUB_TOKEN
   - nvm install $NODE_VERSION
   - nvm alias default node
   - chmod 777 setup.sh
