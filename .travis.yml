@@ -48,7 +48,7 @@ script:
 
   # Build API documentation
   - cd raml2markdown/
-  - chmod 777 build.sh
+  - chmod 777 build.py
   - ./build.py
   - cd ..
   - echo 'docs.oftrust.net' > build/CNAME
