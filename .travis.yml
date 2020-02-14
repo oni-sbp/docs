@@ -63,6 +63,6 @@ deploy:
   local-dir: build
   github-token: $GITHUB_TOKEN
   target-branch: gh-pages
-  repo: PlatformOfTrust/docs
+  repo: oni-sbp/docs
   on:
     branch: master
