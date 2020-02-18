@@ -53,7 +53,7 @@ script:
   - chmod 777 build.py
   - ./build.py
   - cd ..
-  - echo 'docs.oftrust.net' > build/CNAME
+  - echo 'oni.hopto.org' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
