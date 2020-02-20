@@ -27,32 +27,13 @@ before_install:
   - echo $GITHUB_TOKEN
   - nvm install $NODE_VERSION
   - nvm alias default node
-  - chmod 777 setup.sh
-  - ./setup.sh
-
-install:
-   # Install all the dependecies required to
-   # generate and validate code examples based
-   # on API specification in `raml2markdown/src`.
-   - chmod 777 scripts/code-examples/install-deps.sh
-   - ./scripts/code-examples/install-deps.sh
 
 script:
   # Generate code examples from RAML files.
-  - chmod 777 scripts/code-examples/generate.sh
-  - ./scripts/code-examples/generate.sh
-
-  # Validate code examples.
-  # API is currently unstable - thus ignore the
-  # result of validation for now.
-  - chmod 777 scripts/code-examples/validate.sh
-  - ./scripts/code-examples/validate.sh || true
+  - chmod 777 scripts/generate-docs.sh
+  - ./scripts/generate-docs.sh
 
   # Build API documentation
-  - cd raml2markdown/
-  - chmod 777 build.py
-  - ./build.py
-  - cd ..
   - echo 'oni.hopto.org' > build/CNAME
   - cp -R keys ./build/
 
