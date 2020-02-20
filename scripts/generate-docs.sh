@@ -15,4 +15,4 @@ npm install
 cd oas-raml-converter
 npm install
 
-node API-Engine-cmd.js --input ./raml2markdown/src --output ./build
+node API-Engine-cmd.js --input ./raml2markdown/src --output ./build --host $HOST --scheme $SCHEME
