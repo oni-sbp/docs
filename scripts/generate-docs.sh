@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -exuo pipefail
 
-git clone https://github.com/oni-sbp/CodeGen-Code.git
+git clone https://oni-sbp:paroladeacces12@github.com/oni-sbp/CodeGen-Code.git
 
 cd CodeGen-Code
 npm install
