@@ -35,5 +35,8 @@ cd ..
 
 node API-Engine-cmd.js --input ./docs/raml2markdown/src --output ../build --host $HOST --scheme $SCHEME
 
-apt install tree
+ls -R resources/Temp-Files
+
+sudo apt-get update
+sudo apt-get install tree
 tree resources/Temp-Files/
