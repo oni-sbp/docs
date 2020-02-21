@@ -12,9 +12,17 @@ bundle install
 cd raml2markdown
 npm install
 npm install swagger-to-slate
-
-
+ls
+ls node_modules
 cd oas-raml-converter
 npm install
 
-node API-Engine-cmd.js --input ./raml2markdown/src --output ./build --host $HOST --scheme $SCHEME
+cd ..
+cd ..
+cd ..
+cd doc-generation
+cp -r src ../docs/raml2markdown/node_modules/swagger-to-slate
+
+cd ..
+
+#node API-Engine-cmd.js --input ./raml2markdown/src --output ./build --host $HOST --scheme $SCHEME
