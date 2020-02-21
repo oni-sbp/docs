@@ -18,7 +18,6 @@ cd raml2markdown
 npm install
 npm install swagger-to-slate
 
-ls node_modules
 cd oas-raml-converter
 npm install
 
