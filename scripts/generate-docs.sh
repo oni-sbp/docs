@@ -15,10 +15,7 @@ cd raml2markdown
 npm install
 npm install swagger-to-slate
 
-cd oas-raml-converter
-npm install
-
-cd ../../..
+cd ../..
 
 cp -r doc-generation/src ./docs/raml2markdown/node_modules/swagger-to-slate
 
