@@ -10,6 +10,7 @@ cd docs
 bundle install
 
 cd raml2markdown
+ls
 npm install
 npm install swagger-to-slate
 ls
