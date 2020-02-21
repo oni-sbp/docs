@@ -21,9 +21,7 @@ npm install swagger-to-slate
 cd oas-raml-converter
 npm install
 
-cd ..
-cd ..
-cd ..
+cd ../../..
 
 cd doc-generation
 cp -r src ../docs/raml2markdown/node_modules/swagger-to-slate
@@ -34,6 +32,8 @@ mkdir Temp-Files
 cd ..
 
 node API-Engine-cmd.js --input ./docs/raml2markdown/src --output ../build --host $HOST --scheme $SCHEME
+
+cat resources/Temp-Files/*/OAS/acl.json
 
 sudo apt-get update
 sudo apt-get install tree
