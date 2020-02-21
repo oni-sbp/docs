@@ -11,6 +11,8 @@ bundle install
 
 cd raml2markdown
 npm install
+npm install swagger-to-slate
+
 
 cd oas-raml-converter
 npm install
