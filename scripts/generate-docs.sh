@@ -31,4 +31,3 @@ cat resources/Temp-Files/*/OAS/acl.json
 sudo apt-get update
 sudo apt-get install tree
 tree resources/Temp-Files/
-tree docs/raml2markdown/oas-raml-converter
