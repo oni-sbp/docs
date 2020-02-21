@@ -34,4 +34,4 @@ cd resources
 mkdir Temp-Files
 cd ..
 
-node API-Engine-cmd.js --input ./raml2markdown/src --output ./build --host $HOST --scheme $SCHEME
+node API-Engine-cmd.js --input ./docs/raml2markdown/src --output ../build --host $HOST --scheme $SCHEME
