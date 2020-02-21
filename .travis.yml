@@ -34,7 +34,7 @@ script:
   - ./scripts/generate-docs.sh
 
   # Build API documentation
-  - echo 'oni.hopto.org' > build/CNAME
+  #- echo 'oni.hopto.org' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
