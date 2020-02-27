@@ -37,7 +37,7 @@ script:
   - ./scripts/generate-docs.sh
 
   # Build API documentation
-  - echo 'docs-sbp.oftrust.net' > build/CNAME
+  - echo 'docs-sbp2.oftrust.net' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
