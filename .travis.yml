@@ -27,17 +27,16 @@ services:
 - mongodb
 
 before_install:
-  - echo $GITHUB_TOKEN
   - nvm install $NODE_VERSION
   - nvm alias default node
 
 script:
   # Generate code examples from RAML files.
-  - chmod 777 scripts/generate-docs.sh
+  - chmod +x scripts/generate-docs.sh
   - ./scripts/generate-docs.sh
 
   # Build API documentation
-  - echo 'docs-sbp2.oftrust.net' > build/CNAME
+#  - echo 'docs-sbp2.oftrust.net' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
