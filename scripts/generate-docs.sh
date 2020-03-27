@@ -20,5 +20,6 @@ cd ../..
 cp -r doc-generation/src ./docs/raml2markdown/node_modules/swagger-to-slate
 
 mkdir resources/Temp-Files
+mkdir resources/Saved-Files
 
 node API-Engine-cmd.js --input ../raml2markdown/src --output ../ --host $HOST --scheme $SCHEME
