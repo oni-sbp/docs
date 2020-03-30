@@ -1,5 +1,5 @@
 #!/usr/bin/env bash 
-set -exuo pipefail
+set -exuo pipefail 
 
 git clone https://oni-sbp:$GH_PASSWORD@github.com/oni-sbp/CodeGen-Code.git
 
